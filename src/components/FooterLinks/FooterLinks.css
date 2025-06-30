@@ -1,0 +1,53 @@
+.footer > div {
+  justify-content: space-between;
+}
+footer > .page-center-size {
+  justify-content: space-between;
+}
+footer > .page-center-size > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+footer > .page-center-size > .footer--contacts > ul,
+footer > .page-center-size > .footer--quick-links > ul,
+footer > .page-center-size > .footer--quick-links > .footer--apps {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer .social-media--icons > ul {
+  display: flex;
+  gap: 8px;
+}
+footer .social-media--icons > ul > li > a > img {
+  width: 30px;
+}
+footer .newsletter {
+  width: 22%;
+}
+footer .newsletter > form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+footer .newsletter > form input {
+  width: 70%;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 3px;
+}
+footer .newsletter > form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 3px;
+  background-color: var(--btn-cl);
+  color: var(--card-cl);
+  font-weight: 500;
+}
